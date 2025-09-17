@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetupThreadActivity", "SetupThreadActivity\SetupThreadActivity.csproj", "{4917E8B3-9D83-42A0-B404-3FB55995B071}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataManipulator", "DataManipulator\DataManipulator.csproj", "{265F3413-0097-4269-86F5-DDFB54D75419}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4917E8B3-9D83-42A0-B404-3FB55995B071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4917E8B3-9D83-42A0-B404-3FB55995B071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4917E8B3-9D83-42A0-B404-3FB55995B071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4917E8B3-9D83-42A0-B404-3FB55995B071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{265F3413-0097-4269-86F5-DDFB54D75419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{265F3413-0097-4269-86F5-DDFB54D75419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{265F3413-0097-4269-86F5-DDFB54D75419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{265F3413-0097-4269-86F5-DDFB54D75419}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F3E0ADA-7E1E-4EEC-90B1-B78BD5B4F61D}
+	EndGlobalSection
+EndGlobal
