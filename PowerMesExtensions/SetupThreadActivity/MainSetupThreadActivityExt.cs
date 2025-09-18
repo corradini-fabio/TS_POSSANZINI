@@ -206,6 +206,9 @@ namespace TeamSystem.Customizations.SetupThreadActivity
                 {
                     //controllo ed estrapolo i valori degli attributi impostati a livello di risorsa
                     ResourceAttribute resourceAttribute = new ResourceAttribute(resource, _MesManager, _MesLogger);
+
+                    //File.AppendAllText(@"C:\ProgramData\Atys\PowerMES\v1\Logs\extensionLog.txt", $"{resource.Name}: resourceAttribute.CanProceed = {resourceAttribute.CanProceed}" + Environment.NewLine);
+
                     if (!resourceAttribute.CanProceed)
                     {
                         _MesLogger.WriteMessage(MessageLevel.Diagnostics, false, Constants.LOGGERSOURCE,
@@ -224,6 +227,8 @@ namespace TeamSystem.Customizations.SetupThreadActivity
                                                 $@"{resource.Name}: NON è possibile procedere => il valore di mesValue.CanProceed è '{mesValue.CanProceed}'");
                         continue;
                     }
+
+                    //File.AppendAllText(@"C:\ProgramData\Atys\PowerMES\v1\Logs\extensionLog.txt", $"{resource.Name}: mesValue.CanProceed = {mesValue.CanProceed}" + Environment.NewLine);
 
                     //eseguo istruzioni differenti in base al nome risorsa
                     switch (resource.Name)
